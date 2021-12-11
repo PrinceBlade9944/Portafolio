@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+}
+nav{
+    border: 2px solid black;
+    background-color: rgb(211, 54, 7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 2px 5px 2px 5px;
+    font-weight: bolder;
+    height: 80px;
+}
+#tit{
+    padding: 10px;
+}
+#blog{
+    color: cornsilk;
+    font-size: 25px;
+    padding-left: 25px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+#but{
+    display: flex;
+    gap: 30px;
+    color: rgb(0, 0, 0);
+}
+#but > #home{
+    font-size: 20px;
+    padding: 25px;
+}
+#but >#products{
+    font-size: 20px;
+    padding: 25px;
+}
+main{
+    border: 5px white;
+    text-align: center;
+    display: grid;
+    padding: 20px;
+} 
+p{
+    font-size: 70px;
+    font-weight: 1200px;
+    color: rgb(231, 221, 216);
+    background-color: rgb(52, 143, 10);
+    position:absolute;  
+    text-align: center;
+    border: 10px solid rgb(3, 54, 16);
+    border-radius: 25px;
+    width: vw;
+    height: vh;
+    padding-top: 20px; left: 35vmax;
+}
+section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 180px;
+    padding-left: 100px;
+}
+section > div:nth-child(1){
+    background-color: rgba(175, 83, 22, 0.747);
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+section > div:nth-child(2){
+    background-color: rgb(98, 61, 184);
+    width: 30%;
+}
+#contenedor-imagene{
+    background-color: rgba(175, 83, 22, 0.747);
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+#contenedor-imagen{
+    background-color: rgba(175, 83, 22, 0.747);
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+#contenedor-imagen>img{
+    width: 300px;
+}
+#contenedor-image{
+    background-color: rgba(175, 83, 22, 0.747);
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+#contenedor-image>img{
+    width: 400px;
+    height: 400px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 40% 30% 20%; 
+    justify-content: space-between;
+}
+#foot >img{
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+#butt > #b11{
+    background-color: blue;
+    color: rgb(7, 6, 7);
+    font-weight: bold;
+    border-bottom: 10px rgb(0, 0, 0);
+    width: 20px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 30px;
+}
+#b1{
+    background-color: blue;
+    border-bottom: 0px;
+    color:white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#butt > #b2{
+    background-color: blue;
+    color: rgb(7, 6, 7);
+    font-weight: bold;
+    border-bottom: 10px rgb(0, 0, 0);
+    width: 20px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 30px;
+}
+#b22{
+    background-color: blue;
+    border-bottom: 0px;
+    color:white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#contact {
+    border: 30px rgb(238, 173, 77);
+    border-radius: 30px black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color:rgb(119, 233, 195);
+    color: rgb(12, 12, 12);
+    justify-content: center;
+    text-align: center;
+}
+
